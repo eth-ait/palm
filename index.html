@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Palm: Predicting Actions through Language Models">
+  <meta name="keywords" content="ldmoa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palm: Predicting Actions through Language Models</title>
+
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-72PW1FZDE4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-72PW1FZDE4');
+  </script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Palm: Predicting Actions through Language Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a>Daoji Huang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://ait.ethz.ch/people/hilliges">Otmar Hilliges</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html/">Luc Van Gool</a><sup>1</sup>,</span>
+             <span class="author-block">
+              <a href="https://ait.ethz.ch/people/xiwang">Xi Wang</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>ETH Zurich, Switzerland</span>
+            <br>       
+            <span class="author-block">  <b>In tbd, 2023.</b></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://www.google.com"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+<!--               <span class="link-block">
+                <a href="https://youtu.be/YB1_xKlueUI"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <div class="diagram">
+        <img src="static/images/palm_teaser.png" alt="Overview" height="750" width="1000" />
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+We present Palm, a solution to the Long-Term Action Anticipation (LTA) task utilizing vision-language and large language models. Given an input video with annotated action periods, the LTA task aims to predict possible future actions. We hypothesize that an optimal solution should capture the interdependency between past and future actions, and be able to infer future actions based on the structure and dependency encoded in the past actions. Large language models have demonstrated remarkable commonsense-based reasoning ability. Inspired by that, Palm chains an image captioning model and a large language model. It predicts future actions based on frame descriptions and action labels extracted from the input videos. Our method outperforms other participants in the EGO4D LTA challenge and achieves the best performance in terms of action prediction. Our code is available at <a href="https://github.com/DanDoge/Palm">https://github.com/DanDoge/Palm</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section_video">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Poster</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="diagram">
+            <img src="static/images/ldmoa_poster.png" alt="Overview" height="750" width="1000" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{tbd,
+  title={Palm: Predicting Actions through Language Models},
+  author={Daoji Huang, Otmar Hilliges, Luc Van Gool, Xi Wang},
+  booktitle={tbd},
+  year={2023}
+}</code></pre>
+  </div>
+</section>
+
+</body>
+</html>
